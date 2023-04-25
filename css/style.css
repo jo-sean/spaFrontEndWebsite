@@ -81,18 +81,19 @@ h2 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     padding-left: 10%;
     padding-right: 10%; 
-    padding-top: 5%;
     padding-bottom: 5%;
     color: #E5E7EB;
 }
 
 .hero_image {
-    max-width: 500px;
+    max-width: 50%;
     max-height: 260px;
     padding-top: 5%;
     padding-bottom: 5%;
+    margin-left: 25px;
    }
 
 .hero_button {
