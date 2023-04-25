@@ -130,10 +130,10 @@ button:hover {
    }
    
 .quote_caption {
-       padding-left: 43pc;
        font-family: 'RobotoBold';
        font-size: 24px;
        color: #1F2937;
+       text-align: right;
    }
    
 .calltoaction {
