@@ -77,9 +77,12 @@ h2 {
 }
 
 .hero {
+    background-color: #1F2937;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%; 
     padding-top: 5%;
     padding-bottom: 5%;
     color: #E5E7EB;
