@@ -38,7 +38,7 @@ header {
 }
 
 #logo {
-    width: 200px;
+    height: 50px;
    }
 
 nav {
@@ -86,7 +86,6 @@ h2 {
 
 .hero_image {
     max-width: 50%;
-    max-height: 260px;
     padding-top: 5%;
     padding-bottom: 5%;
     margin-left: 25px;
