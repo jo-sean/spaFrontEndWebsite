@@ -5,21 +5,18 @@
 }
 
 @font-face {
-    font-family: 'RobotoBold';
+    font-family: 'RobotoBold' ;
     src: url(../fonts/Roboto-Bold.ttf) format('truetype');
-    font-weight: bold;
 }
 
 @font-face {
     font-family: 'RobotoBlack';
     src: url(../fonts/Roboto-Black.ttf) format('truetype');
-    font-weight: bolder;
 }
 
 @font-face {
     font-family: 'RobotoLight';
     src: url(../fonts/Roboto-Light.ttf) format('truetype');
-    font-weight: lighter;
 }
 
 @font-face {
@@ -65,7 +62,7 @@ a:hover {
 h1 {
  font-size: 48px;
  font-family: 'RobotoBlack';
- font-weight: bolder;
+ font-weight: bold;
  color: #F9FAF8;
 }
 
@@ -101,7 +98,11 @@ h2 {
     color: #F9FAF8;
     border: 0;
     border-radius: 5px;
-    padding: 4%;
+    padding: 2%;
+}
+
+.hero_text {
+    margin-top: -30px;
 }
 
 
@@ -111,6 +112,7 @@ h2 {
        padding-right: 10%;
        text-align: center;
        color: #1F2937;
+       font-family: 'RobotoLight';
    }
    
 
@@ -125,7 +127,7 @@ h2 {
    }
    
 .quote_caption {
-       padding-left: 35pc;
+       padding-left: 39pc;
        font-family: 'RobotoBold';
        color: #1F2937;
    }
@@ -150,9 +152,14 @@ h2 {
        border-radius: 5px;
        border:solid;
        margin: 10px;
-       padding-left: 10%;
-       padding-right: 10%;
+       padding-left: 5%;
+       padding-right: 5%;
    }
+
+.calltoaction_header {
+    font-size: 24px;
+    margin-bottom: -15px;
+}
    
 footer {
        text-align: center;
