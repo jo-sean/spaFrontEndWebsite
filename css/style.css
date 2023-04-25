@@ -56,7 +56,7 @@ nav {
 }
 
 a:hover {
-    color: #3882F6;
+    color: #D49B35;
 }
 
 h1 {
@@ -98,7 +98,11 @@ h2 {
     color: #F9FAF8;
     border: 0;
     border-radius: 5px;
-    padding: 2%;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: #D49B35;
 }
 
 .hero_text {
@@ -121,25 +125,25 @@ h2 {
        font-family: 'RobotoLightItalic';
        margin-top: 10px;
        background-color: #E5E7EB;
-       padding: 2%;
+       padding:5%;
        text-align: center;
        color:#1F2937 ;
    }
    
 .quote_caption {
-       padding-left: 39pc;
+       padding-left: 43pc;
        font-family: 'RobotoBold';
+       font-size: 24px;
        color: #1F2937;
    }
    
 .calltoaction {
        background-color: #3882F6;
+       margin: 40px;
+       display: flex;
+       align-items: center;
        padding-left: 10%;
        padding-right: 10%;
-       padding-top: 1%;
-       padding-bottom: 1%;
-       margin: 5%;
-       display: flex;
        justify-content: space-between;
        border-radius: 5px;
        color: #E5E7EB;
@@ -151,9 +155,7 @@ h2 {
        border-color: #F9FAF8;
        border-radius: 5px;
        border:solid;
-       margin: 10px;
-       padding-left: 5%;
-       padding-right: 5%;
+       padding: 10px;
    }
 
 .calltoaction_header {
