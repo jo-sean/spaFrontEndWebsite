@@ -1,0 +1,100 @@
+nav {
+    background-color: #1F2937;
+    display: flex;
+    justify-content:space-between;
+    padding: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+   }
+   
+   header {
+       background-color: #1F2937;
+       display: flex;
+       padding: 10%;
+       color: #F9FAF8;
+       
+   }
+   
+   h2 {
+       text-align: center;
+   }
+   
+   .joinant_items {
+       display: flex;
+       padding-left: 10%;
+       padding-right: 10%;
+       text-align: center;
+   }
+   
+   .nav_link {
+       margin-right: 10px;
+       color: #F9FAF8;
+       text-decoration: none;
+       
+   }
+   
+   a:hover {
+       color: #3882F6;
+   }
+   
+   .header_button {
+       background-color: #3882F6;
+       color: #F9FAF8;
+       border: 0;
+       border-radius: 5px;
+       padding: 2%;
+   }
+   
+   .card_view {
+       margin-top: 10px;
+       background-color: #E5E7EB;
+       padding: 2%;
+       text-align: center;
+       font-style: italic;
+   }
+   
+   .quote_caption {
+       padding-left: 15pc;
+       font-weight: bold;
+       font-style: normal;
+   }
+   
+   .calltoaction {
+       background-color: #3882F6;
+       padding-left: 10%;
+       padding-right: 10%;
+       padding-top: 1%;
+       padding-bottom: 1%;
+       margin: 5%;
+       display: flex;
+       justify-content: space-between;
+       border-radius: 5px;
+       color: #E5E7EB;
+   }
+   
+   .calltoaction_button {
+       background-color: #3882F6;
+       color: #F9FAF8;
+       border-color: #F9FAF8;
+       border-radius: 5px;
+       border:solid;
+       margin: 10px;
+       padding-left: 10%;
+       padding-right: 10%;
+   }
+   
+   footer {
+       text-align: center;
+       padding: 1%;
+       background-color: #1F2937;
+       color: #E5E7EB;
+   }
+   
+   .main_image {
+       width: 400px;
+   }
+   
+   
+   
+   
+   
