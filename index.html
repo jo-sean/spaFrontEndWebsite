@@ -4,37 +4,87 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
+    <title>Sunrise Hotel & Resort</title>
+    <link rel="icon" href="./img/browser_icon.ico">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <a href="./Pages/Concept/Concept.html">Concept</a>
-    <a href="./Pages/Stay/Stay.html">Stay</a>
-    <a href="./Pages/Contact/Contact.html">Contact</a>
 
-    <h1>Welcome to Sunrise</h1>
-    <p>Sunrise is a boutique hotel located on the exclusive Sunrise Island. The essence of Mediterranea comes to life at Sunrise,
-    where the gusto for the finest details, local amenities, and modern touches come together in and exclusive atmosphere.</p>
-    <button>BOOK YOUR STAY!</button>
-
-    <div class="Hospitality-body">
-        <div class="content" style="padding: 1%; font: 2em sans-serif; margin-top: 3%;">Sunrise Hospitality</div>
-        <div class="content" style="padding: .5%;">Sunrise Hotel has 45 exclusive villas with an outstanding attention for detail.</div>
-        <div class="content" style="padding: .5%;">Sunrise Hotel offers a wide range of services that makes our customers feel at home.</div>
-        <div class="content" style="padding: .5%;">The most exclusive and unique island in the Mediterranean Sea.</div>
-        <div class="content" style="padding: .5%;">Book on the Offical Website of Sunrise Hotel with the best price guarantee and receive exclusive discounts.</div>
-    </div>
+    <header>
+        <nav>
+            <img id="logo" src="./img/sunrise_logo.png" alt="Sunrise Logo">
+            <div>
+            <a class="nav_link" href="./pages/concept.html">Concept</a>
+            <a class="nav_link" href="./pages/stay.html">Stay</a>
+            <a class="nav_link" href="./pages/contact.html">Contact</a>
+            </div>
+        </nav>
+    </header>
+    <section class="hero">
+            <div>
+                <h1>Welcome to Sunrise</h1>
+                <p class="hero_text">Sunrise is a boutique hotel located on the exclusive Sunrise Island. The essence of Mediterranea comes to life at Sunrise, where the gusto for the finest details, local amenities, and modern touches come together in an exclusive atmosphere.</p>
+                
+                <button class="hero_button"> <strong>Book Now!</strong></button>
+            </div>
+            <img class="hero_image" src="./img/home_img.png" alt="Three Sea Bungalow">
+    </section>
     
-    <div id="Quote">
-        <div class="content" style="padding: .5%; margin-top: 5%; text-align: center; font-size: large;">The great advantage of a hotel is that it is a refuge from home life.</div>
-        <div class="content" style="padding: .5%; margin-right: 20%; text-align: right;">-George Bernard Shaw</div>
-    </div>
 
-    <p style="padding: .5%; margin-left: 20%; text-align: left; margin-top: 5%;">Come Join Us!</p>
-    <p style="padding: .5%; margin-left: 20%; text-align: left;">Book your stay with just one click here!</p>
-    <button style="padding: .5%; margin-right: 20%;">Book Your Stay!</button>
+    <article>
+        <h2>Sunrise Hospitality</h2>
+        <div class="info">
+            <figure>
+                <img src="./img/bed_icon.png" alt="Bed Icon">
+                <figcaption>Sunrise Hotel has 45 exclusive villas with an outstanding attention for detail.
+                </figcaption>
+            </figure>
+            
+            <figure>
+                <img src="./img/services_icon.png" alt="24/7 Services Icon">
+                <figcaption>Sunrise Hotel offers a wide range of services that makes our customers feel at home.
+                </figcaption>
+            </figure>
+            
+            <figure>
+                <img src="./img/location_icon.png" alt="Location Icon">
+                <figcaption>The most exclusive and unique island in the Mediterranean Sea. 
+                </figcaption>
+            </figure>
+            
+            <figure>
+                <img src="./img/reservation_icon.png" alt="Reservation Icon">
+                <figcaption>Book on the Official Website of Sunrise Hotel with best price guarantee and receive exclusive discounts.
+                </figcaption>
+            </figure>
+        </div>
+    </article>
+
+    <section class="quote">
+        <figure>
+            <blockquote>
+                <p>The great advantage of a hotel is that it is a refuge from home life.
+                </p> 
+            </blockquote>
+            <figcaption class="quote_caption">
+                - George Bernard Shaw 
+            </figcaption>
+        </figure>
+    </section>
+
+    <section class="calltoaction">
+        <div>
+        <p class="calltoaction_header"><strong>Come Join Us!</strong></p>
+        <p>Book your stay with just one click here!</p>
+        </div>
+        <button class="calltoaction_button">
+            <strong>Book Now!</strong>
+        </button>
+    </section>
+
+    <footer>
+        <p><small>© Sunrise LLC, 2023.</small></p>
+    </footer>
 
 </body>
-<footer>
-    <p style="text-align: center;">Sunrise LLC, 2023.</p> 
-</footer>
 </html>
