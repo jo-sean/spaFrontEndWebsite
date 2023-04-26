@@ -12,52 +12,61 @@
 
 <body>
 
-    <header class="Header">
-        <nav>
-            <img src="../img/sunrise_logo.png" alt="Sunrise Logo depicting a minimalist sunrise">
-            <a href="../index.html">Home</a>
-            <a href="./Stay.html">Stay</a>
-            <a href="./Contact.html">Contact</a>
-        </nav>
+    <header>
+        <section class="logo_flex">
+            <img id="logo" src="../img/sunrise_logo.png" alt="Sunrise Logo depicting a minimalist sunrise">
+            <nav>
+                <a class="nav_link" href="../index.html">Home</a>
+                <a class="nav_link" href="./stay.html">Stay</a>
+                <a class="nav_link" href="./concept.html">Concept</a>
+            </nav>
+        </section>
 
-        <h1 class="content">Stay in touch!</h1>
-        <p class="content">Subscribe to the nwesletter to get updated on news and promotions.</p>
-        <button>Suscribe</button>
-        <img src="../img/scenic-coastline.jpg" alt="Aerial sandy coastline on a sunny day">
+        <section class="hero">
+            <div>
+                <h1>Stay in touch!</h1>
+                <p class="hero_text">Subscribe to the newsletter to get updated on news and promotions.</p>
+                <button class="hero_button" type="submit">SUBSCRIBE</button>
+            </div>
+
+            <img class="hero_image scale" src="../img/scenic-coastline.jpg" alt="Aerial sandy coastline on a sunny day">
+        </section>
+
     </header>
 
-    <main class="contact-body">
+    <main>
+
         <h2>Contact</h2>
 
-        <section class="location-image">
-            <img src="../img/pinned-maps.jpg" alt="Hand putting pin on a map">
-        </section>
+        <article class="location_details">
 
-        <section class="contact-summary">
-
-            <section class="contact content">
-                <h3>Address</h3>
-                <p><em>1 Palm Avenue, 1305 Street, 415 08392 Sunrise Island</em></p>
+            <section>
+                <img class="location_image cover" src="../img/pinned-maps.jpg" alt="Hand putting pin on a map">
             </section>
 
-            <section class="contact content">
-                <h3>E-mail</h3>
-                <p><em>info@sunrisehotel.com</em></p>
+            <section>
+                <address>
+                    <h3>Address</h3>
+                    <p id="left_orientation"><em>1 Palm Avenue, 1305 Street, 415 08392 Sunrise Island</em></p>
+                </address>
+
+                <address>
+                    <h3>E-mail</h3>
+                    <p><em>info@sunrisehotel.com</em></p>
+                </address>
+
+                <address>
+                    <h3>Phone</h3>
+                    <p><em>+1 234 567 89 10</em></p>
+                </address>
             </section>
 
-            <section class="contact content">
-                <h3>Phone</h3>
-                <p><em>+1 234 567 89 10</em></p>
-            </section>
-
-        </section>
+        </article>
 
     </main>
 
-    <hr>
-
     <footer>
-        © Sunrise LLC, 2023
+        <p><small>© Sunrise LLC, 2023.</small></p>
     </footer>
 
 </body>

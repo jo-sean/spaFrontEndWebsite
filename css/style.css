@@ -29,6 +29,7 @@ body {
     font-family: 'Roboto';
     font-weight: normal;
     font-size: 18px;
+    margin: 0%;
 }
 
 header {
@@ -41,12 +42,19 @@ header {
     height: 50px;
 }
 
-nav {
+.logo_flex {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
     padding-top: 3%;
 }
+
+/* nav {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3%;
+} */
 
 .nav_link {
     margin-right: 10px;
@@ -78,8 +86,8 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 10%;
-    padding-right: 10%;
+    /* padding-left: 10%;
+    padding-right: 10%; */
     padding-bottom: 5%;
     color: #E5E7EB;
 }
@@ -89,14 +97,20 @@ h2 {
     padding-top: 5%;
     padding-bottom: 5%;
     margin-left: 25px;
+    object-fit: cover;
 }
+
+.scale {
+    aspect-ratio: 2.08 / 1;
+}
+
 
 .hero_button {
     background-color: #3882F6;
     color: #F9FAF8;
     border: 0;
     border-radius: 5px;
-    padding: 10px;
+    padding: 3% 8%;
 }
 
 button:hover {
@@ -153,12 +167,34 @@ button:hover {
     border-color: #F9FAF8;
     border-radius: 5px;
     border: solid;
-    padding: 10px;
+    padding: 1% 5%;
 }
 
 .calltoaction_header {
     font-size: 24px;
     margin-bottom: -15px;
+}
+
+.location_details {
+    justify-content: flex-end;
+    display: flex;
+    font-family: 'Roboto';
+    margin: 5% 8%;
+    background-color: #E5E7EB;
+    padding: 10% 2%;
+    text-align: center;
+    color: #1F2937;
+}
+
+.location_image {
+    max-width: 65%;
+    padding: 5% 0%;
+    width: 540px;
+    height: 260px;
+}
+
+#left_orientation {
+    text-align: left;
 }
 
 footer {
