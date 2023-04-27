@@ -32,6 +32,26 @@ body {
     margin: 0%;
 }
 
+a:hover {
+    color: #D49B35;
+}
+
+h1 {
+    font-size: 48px;
+    font-family: 'RobotoBlack', sans-serif;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+h2 {
+    font-size: 36px;
+    font-family: 'RobotoBlack', sans-serif;
+    text-align: center;
+    color: #1F2937;
+}
+
+/* ============ ALL PAGES HERO SECTION ============ */
+
 header {
     background-color: #1F2937;
     padding-left: 10%;
@@ -61,24 +81,6 @@ header {
     margin-right: 10px;
     color: #F9FAF8;
     text-decoration: none;
-}
-
-a:hover {
-    color: #D49B35;
-}
-
-h1 {
-    font-size: 48px;
-    font-family: 'RobotoBlack', sans-serif;
-    font-weight: bold;
-    color: #F9FAF8;
-}
-
-h2 {
-    font-size: 36px;
-    font-family: 'RobotoBlack', sans-serif;
-    text-align: center;
-    color: #1F2937;
 }
 
 #hero {
@@ -122,7 +124,10 @@ button:hover {
     margin-top: -30px;
 }
 
+/* =============================================== */
 
+
+/* ========== HOME PAGE | INFO SECTION ========== */
 .info {
     display: flex;
     padding-left: 10%;
@@ -131,8 +136,10 @@ button:hover {
     color: #1F2937;
     font-family: 'RobotoLight', sans-serif;
 }
+/* =============================================== */
 
 
+/* ========== HOME PAGE | QUOTE SECTION ========== */
 .quote {
     font-size: 36px;
     font-family: 'RobotoLightItalic', sans-serif;
@@ -149,7 +156,10 @@ button:hover {
     color: #1F2937;
     text-align: right;
 }
+/* =============================================== */
 
+
+/* ===== HOME PAGE | CALL-TO-ACTION SECTION ===== */
 .calltoaction {
     background-color: #3882F6;
     margin: 40px;
@@ -175,23 +185,10 @@ button:hover {
     font-size: 24px;
     margin-bottom: -15px;
 }
+/* =============================================== */
 
-.location_details {
-    justify-content: space-evenly;
-    display: flex;
-    margin: 5% 8%;
-    background-color: #E5E7EB;
-    padding: 10% 10%;
-    text-align: center;
-    color: #1F2937;
-}
 
-.location_image {
-    max-width: 80%;
-    object-fit: cover;
-    aspect-ratio: 1 / 1;
-}
-
+/* ========== CONCEPT PAGE | INFO SECTION ========== */
 .concept_details {
     flex-direction: column;
     display: flex;
@@ -220,7 +217,9 @@ button:hover {
         margin: 10px 15%;
     }
 }
+/* =============================================== */
 
+/* ========== STAY PAGE | INFO SECTION ========== */
 .stay_details {
     flex-direction: column;
     display: flex;
@@ -273,7 +272,29 @@ button:hover {
 #left_orientation {
     text-align: left;
 }
+/* =============================================== */
 
+
+/* ===== CONTACT PAGE | LOCATION SECTION ===== */
+.location_details {
+    justify-content: space-evenly;
+    display: flex;
+    margin: 5% 8%;
+    background-color: #E5E7EB;
+    padding: 10% 10%;
+    text-align: center;
+    color: #1F2937;
+}
+
+.location_image {
+    max-width: 80%;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+}
+/* =============================================== */
+
+
+/* ===== CONTACT PAGE | FORM SECTION ===== */
 .form {
     background-color: #E5E7EB;
     display: flex;
@@ -285,23 +306,46 @@ button:hover {
     text-align: center;
 }
 
-.form_button {
+.label {
+    font-family: 'RobotoLight';
+}
+
+.form input, textarea {
+    border: 0px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.form input {
+    height: 20px;
+}
+
+textarea {
+    margin-top: 15px;
+}
+
+#form_button {
     background-color: #3882F6;
     color: #F9FAF8;
     border: 0;
     border-radius: 5px;
-    padding: 2% 2%;
-    width: 15%;
+    padding: 1% 3%;
+    height: auto;
+
 }
 
-.label {
-    font-family: 'RobotoLight';
-    font-weight: bold;
+#form_button:hover {
+    background-color: #D49B35;
 }
+/* =============================================== */
 
+
+
+/* =========== ALL PAGES FOOTER SECTION =========== */
 footer {
     text-align: center;
     padding: 1%;
     background-color: #1F2937;
     color: #E5E7EB;
 }
+/* =============================================== */
