@@ -1,0 +1,93 @@
+@font-face {
+    font-family: Roboto_Black;
+    src: url(../Fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: Roboto_Bold;
+    src: url(../Fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: Roboto_Italic;
+    src: url(../Fonts/Roboto-Italic.ttf);
+}
+
+#main {
+    display: block;
+    background-color: #1f2937;
+    padding: 100px;
+}
+
+#main #hero {
+    font-family: Roboto_Bold;
+    color: #f9faf8;
+    font-size: 48px;
+}
+
+#main #secondry {
+    font-family: Roboto_Black;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+#main #btn {
+    color: white;
+    background-color: #2882f6;
+}
+
+#main #logo {
+    width: 200px;
+    height: auto;
+}
+
+.header {
+    font-family: Roboto_Bold;
+    font-size: 36px;
+    color: #1f2937;
+    text-align: center;
+    margin: 20px;
+    padding: 2%;
+}
+
+.hospitality-body {
+    display: flex; 
+    height: 500px;
+    width: 1000px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+
+.fContent {
+    width: 150px;
+    text-align: center;
+    align-items: center;
+}
+
+.serIcon {
+    
+}
+
+.sContent {
+    width: 150px;
+    text-align: center;
+    align-items: center;
+}
+
+.tContent {
+    width: 150px;
+    text-align: center;
+    align-items: center;
+}
+
+.fthContent {
+    width: 150px;
+    text-align: center;
+    align-items: center;
+}
+
+#contact {
+    text-align: right;
+}

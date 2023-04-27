@@ -56,11 +56,11 @@ header {
     padding-top: 3%;
 } */
 
+
 .nav_link {
     margin-right: 10px;
     color: #F9FAF8;
     text-decoration: none;
-
 }
 
 a:hover {
@@ -229,5 +229,4 @@ footer {
     padding: 1%;
     background-color: #1F2937;
     color: #E5E7EB;
-    /* width: 100%; */
 }
