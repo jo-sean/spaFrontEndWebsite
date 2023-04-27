@@ -30,7 +30,7 @@
         </section>
     </header>
 
-    <main>
+    <main class="contact_main">
         <h2>Get In Touch</h2>
 
         <article class="location_details">
@@ -54,37 +54,28 @@
         </article>
     </main>
 
-    <form class="form" action="mailto:andrewnabil41@gmail.com" method="post" enctype="text/plain"><br>
-        <h3>Contact Us</h3>
-        <figure>
-            <label class="label">First Name</label>
-            <input type="text" name="name" value=""><br>
-        </figure>
-           
-        <figure>
-            <label class="label">Last Name</label>
-            <input type="text" name="name" value=""><br>
-        </figure>
+        <form class="form" action="mailto:andrewnabil41@gmail.com" method="post" enctype="text/plain"><br>
+            <h3>Contact Us</h3>
+            <div>
+                <label class="label">First Name</label>
+                <input type="text" name="name" value=""><br>
+                
+                <label class="label">Last Name</label>
+                <input type="text" name="name" value=""><br>
+                
+                <label class="label">Phone</label>
+                <input type="text" name="Phone" value=""><br>
+                
+                <label class="label">Email</label>
+                <input type="email" name="email" value=""><br>
+            </div>
+            <div>
+                <label class="label">Your Message</label>
+                <textarea name="message" rows="10" cols="30"></textarea><br>
 
-        <figure>
-            <label class="label">Phone</label>
-            <input type="text" name="Phone" value=""><br>
-        </figure>
-        
-       <figure>
-            <label class="label">Email</label>
-            <input type="email" name="email" value=""><br>
-       </figure>
-       
-       <figure>
-            <label class="label">Your Message</label><br>
-            <textarea name="message" rows="10" cols="30"></textarea><br>
-       </figure>
-        
-       <input id="form_button" type="submit" name="">
-
-      </form>
-    <br>
+                <input id="form_button" type="submit" name="">
+            </div>
+        </form>
 
     <footer>
         <p><small>© Sunrise LLC, 2023.</small></p>
