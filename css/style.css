@@ -255,6 +255,7 @@ button:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
 }
 
 .room_details {
@@ -274,30 +275,6 @@ button:hover {
     text-align: left;
 }
 
-.form {
-    background-color: #E5E7EB;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 5% 8%;
-    padding: 5% 5%;
-    text-align: center;
-}
-
-.form_button {
-    background-color: #3882F6;
-    color: #F9FAF8;
-    border: 0;
-    border-radius: 5px;
-    padding: 2% 2%;
-    width: 15%;
-}
-
-.label {
-    font-family: 'RobotoLight';
-    font-weight: bold;
-}
 
 footer {
     text-align: center;
