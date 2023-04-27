@@ -81,7 +81,7 @@ h2 {
     color: #1F2937;
 }
 
-.hero {
+#hero {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
@@ -118,6 +118,7 @@ button:hover {
 }
 
 .hero_text {
+    width: 80%;
     margin-top: -30px;
 }
 
@@ -273,6 +274,7 @@ button:hover {
 #left_orientation {
     text-align: left;
 }
+
 
 footer {
     text-align: center;
