@@ -1,11 +1,11 @@
 @font-face {
-    font-family: 'Roboto';
+    font-family: 'Roboto' ;
     src: url(../fonts/Roboto-Regular.ttf) format('truetype');
     font-weight: normal;
 }
 
 @font-face {
-    font-family: 'RobotoBold';
+    font-family: 'RobotoBold' ;
     src: url(../fonts/Roboto-Bold.ttf) format('truetype');
 }
 
@@ -56,11 +56,11 @@ header {
     padding-top: 3%;
 } */
 
+
 .nav_link {
     margin-right: 10px;
     color: #F9FAF8;
     text-decoration: none;
-
 }
 
 a:hover {
