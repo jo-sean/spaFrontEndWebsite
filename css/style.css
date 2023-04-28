@@ -379,9 +379,9 @@ textarea {
 }
 
 textarea {
-    min-width: 180px;
-    max-width: 180px;
-    min-height: 150px;
+    min-width: 300px;
+    max-width: 300px;
+    min-height: 170px;
 }
 
 #form_button {
