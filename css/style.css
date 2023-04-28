@@ -324,37 +324,50 @@ button:hover {
 
 /* ===== CONTACT PAGE | FORM SECTION ===== */
 
-.form {
+.form_box{
     background-color:#3882F6;
     color: #F9FAF8;
     align-items: center;
     margin: 3% 3%;
     text-align: center;
     border-radius: 5px;
-    background-color: #3882F6;
+    padding: 1% 1%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2% 10%;
 }
 
-form h3 {
+.form_box h3 {
     font-size: 24px;
     font-family: 'RobotoBlack', sans-serif;
     color:#F9FAF8;
 }
 
+.input_box {
+    display: grid;
+    padding: 3%;
+}
+
+.message_box {
+   display: grid;
+   padding: 3%;
+}
+
 .label {
     font-family: 'RobotoLight';
-    display: block;
-    position:static;
     margin-bottom: 5px;
 }
 
 .form input, textarea {
     border: 0px;
     border-radius: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .form input {
@@ -372,11 +385,12 @@ textarea {
     color: #F9FAF8;
     border: 0;
     border-radius: 5px;
-    padding: 3% 8%;
+    padding: 3% 0;
     height: auto;
     border-color: #F9FAF8;
     border: solid;
-
+    width:30%;
+    margin-left: 35%;
 }
 
 #form_button:hover {
