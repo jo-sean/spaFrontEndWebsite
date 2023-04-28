@@ -73,13 +73,6 @@ header {
     padding-top: 3%;
 }
 
-/* nav {
-    background-color: #1F2937;
-    display: flex;
-    justify-content: space-between;
-    padding-top: 3%;
-} */
-
 
 .nav_link {
     margin-right: 10px;
@@ -92,8 +85,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding-left: 10%;
-    padding-right: 10%; */
     padding-bottom: 5%;
     color: #E5E7EB;
 }
