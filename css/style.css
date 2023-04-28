@@ -352,11 +352,14 @@ button:hover {
 .input_box {
     display: grid;
     padding: 3%;
+    margin-right: 100px;
 }
 
 .message_box {
    display: grid;
    padding: 3%;
+   margin-right: 100px;
+   
 }
 
 .label {
@@ -375,8 +378,8 @@ button:hover {
 }
 
 textarea {
-    max-width: 300px;
-    min-width: 300px;
+    min-width: 180px;
+    max-width: 180px;
     min-height: 150px;
 }
 
@@ -389,8 +392,7 @@ textarea {
     height: auto;
     border-color: #F9FAF8;
     border: solid;
-    width:30%;
-    margin-left: 35%;
+    min-width:30%;
 }
 
 #form_button:hover {
