@@ -328,18 +328,16 @@ button:hover {
     background-color: #3882F6;
     color: #F9FAF8;
     align-items: center;
-    margin: 3% 3%;
+    margin: 3% 10%;
     text-align: center;
     border-radius: 5px;
-    padding: 1% 1%;
-    display: flex;
-    justify-content: space-around;
+    padding: 0 5%;
     align-items: center;
 }
 
 .form {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -358,7 +356,6 @@ button:hover {
 .message_box {
     display: grid;
     padding: 3%;
-    margin-right: 100px;
 
 }
 
