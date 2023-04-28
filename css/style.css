@@ -37,7 +37,7 @@ a:hover {
 }
 
 a {
-    color:#3882F6;
+    color: #3882F6;
 }
 
 h1 {
@@ -324,8 +324,8 @@ button:hover {
 
 /* ===== CONTACT PAGE | FORM SECTION ===== */
 
-.form_box{
-    background-color:#3882F6;
+.form_box {
+    background-color: #3882F6;
     color: #F9FAF8;
     align-items: center;
     margin: 3% 3%;
@@ -346,7 +346,7 @@ button:hover {
 .form_box h3 {
     font-size: 24px;
     font-family: 'RobotoBlack', sans-serif;
-    color:#F9FAF8;
+    color: #F9FAF8;
 }
 
 .input_box {
@@ -356,10 +356,10 @@ button:hover {
 }
 
 .message_box {
-   display: grid;
-   padding: 3%;
-   margin-right: 100px;
-   
+    display: grid;
+    padding: 3%;
+    margin-right: 100px;
+
 }
 
 .label {
@@ -367,7 +367,8 @@ button:hover {
     margin-bottom: 5px;
 }
 
-.form input, textarea {
+.form input,
+textarea {
     border: 0px;
     border-radius: 5px;
     margin-bottom: 20px;
@@ -392,7 +393,7 @@ textarea {
     height: auto;
     border-color: #F9FAF8;
     border: solid;
-    min-width:30%;
+    min-width: 30%;
 }
 
 #form_button:hover {
