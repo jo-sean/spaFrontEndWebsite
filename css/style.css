@@ -232,10 +232,8 @@ button:hover {
 .stay_details {
     flex-direction: column;
     display: flex;
-    margin: 5% 10%;
-    justify-content: space-between;
+    margin: 3% 10%;
     color: #1F2937;
-    overflow: hidden;
 }
 
 .stay_image {
@@ -249,8 +247,10 @@ button:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 100%;
+    margin-top: 2%;
+    gap: 10%;
 }
+
 
 .room_details {
     display: flex;
@@ -259,16 +259,18 @@ button:hover {
     background-color: #E5E7EB;
 }
 
+@media screen and ((max-width: 700px)) {
+    .room_details {
+        font-size: 60%;
+    }
+}
+
 #font_fancy {
     font-family: 'RobotoLightItalic';
 }
 
 #left_orientation {
     text-align: left;
-}
-
-.stay_main h2 {
-    margin-bottom: -40px !important;
 }
 
 /* =============================================== */
