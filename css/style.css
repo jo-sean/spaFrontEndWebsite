@@ -56,7 +56,7 @@ h2 {
 
 /* ============ ALL PAGES HERO SECTION ============ */
 
-header {
+.hero_box {
     background-color: #1F2937;
     padding-left: 10%;
     padding-right: 10%;
@@ -232,46 +232,31 @@ button:hover {
 .stay_details {
     flex-direction: column;
     display: flex;
-    margin: 4% 10%;
-    /* padding: 2% 10%; */
-    text-align: left;
+    margin: 5% 10%;
+    justify-content: space-between;
     color: #1F2937;
     overflow: hidden;
 }
 
-/* .stay_image {
-    width: 100%;
-    height: auto;
-    vertical-align: middle;
-}
-
-.room1 {
-    flex: 2.0769;
-}
-
-.room2 {
-    flex: 1.3309;
-} */
-
 .stay_image {
-    width: 300px;
-    height: 300px;
     object-fit: cover;
+    aspect-ratio: 1 / 1;
+    margin: 0%;
+    width: 100%;
 }
 
 .rooms {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 100%;
 }
 
 .room_details {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
     text-align: center;
     background-color: #E5E7EB;
-    margin: 2% 0%;
 }
 
 #font_fancy {
@@ -395,6 +380,15 @@ footer {
     padding: 1%;
     background-color: #1F2937;
     color: #E5E7EB;
+}
+
+.top_shortcut {
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
+.top_shortcut:hover {
+    color: #D49B35;
 }
 
 /* =============================================== */
