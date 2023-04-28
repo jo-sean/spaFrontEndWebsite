@@ -124,7 +124,6 @@ button:hover {
 }
 
 .hero_text {
-    width: 80%;
     margin-top: -30px;
 }
 
@@ -175,15 +174,15 @@ button:hover {
 
 .calltoaction {
     background-color: #3882F6;
-    margin: 40px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 3% 20% 3% 20%;
     border-radius: 5px;
     color: #E5E7EB;
 }
+
 
 .calltoaction_button {
     background-color: #3882F6;
@@ -191,7 +190,9 @@ button:hover {
     border-color: #F9FAF8;
     border-radius: 5px;
     border: solid;
-    padding: 1% 5%;
+    padding: 0% 5%;
+    margin: 2%;
+
 }
 
 .calltoaction_header {
