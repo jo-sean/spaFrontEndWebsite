@@ -73,7 +73,6 @@ h2 {
     padding-top: 3%;
 }
 
-
 .nav_link {
     margin-right: 10px;
     color: #F9FAF8;
@@ -101,7 +100,6 @@ h2 {
     aspect-ratio: 2.08 / 1;
 }
 
-
 .hero_button {
     background-color: #3882F6;
     color: #F9FAF8;
@@ -116,6 +114,7 @@ button:hover {
 
 .hero_text {
     margin-top: -30px;
+    width: 60%;
 }
 
 /* =============================================== */
@@ -250,7 +249,6 @@ button:hover {
     margin-top: 2%;
     gap: 10%;
 }
-
 
 .room_details {
     display: flex;
