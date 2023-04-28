@@ -382,13 +382,25 @@ footer {
     color: #E5E7EB;
 }
 
+.backtotop {
+    position: absolute;
+    margin-top: 1%;
+    border: #F9FAF8 solid;
+    border-radius: 5px;
+    padding: 0.5% 1%;
+}
+
 .top_shortcut {
     color: #F9FAF8;
     text-decoration: none;
 }
 
-.top_shortcut:hover {
-    color: #D49B35;
+.backtotop:hover {
+    background-color: #D49B35;
+}
+
+.backtotop a:hover {
+    color: #F9FAF8;
 }
 
 /* =============================================== */
