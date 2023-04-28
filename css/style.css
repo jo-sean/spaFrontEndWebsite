@@ -36,6 +36,10 @@ a:hover {
     color: #D49B35;
 }
 
+a {
+    color: #3882F6;
+}
+
 h1 {
     font-size: 48px;
     font-family: 'RobotoBlack', sans-serif;
@@ -69,13 +73,6 @@ header {
     padding-top: 3%;
 }
 
-/* nav {
-    background-color: #1F2937;
-    display: flex;
-    justify-content: space-between;
-    padding-top: 3%;
-} */
-
 
 .nav_link {
     margin-right: 10px;
@@ -88,8 +85,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding-left: 10%;
-    padding-right: 10%; */
     padding-bottom: 5%;
     color: #E5E7EB;
 }
@@ -120,7 +115,6 @@ button:hover {
 }
 
 .hero_text {
-    width: 80%;
     margin-top: -30px;
 }
 
@@ -128,6 +122,7 @@ button:hover {
 
 
 /* ========== HOME PAGE | INFO SECTION ========== */
+
 .info {
     display: flex;
     padding-left: 10%;
@@ -136,10 +131,12 @@ button:hover {
     color: #1F2937;
     font-family: 'RobotoLight', sans-serif;
 }
+
 /* =============================================== */
 
 
 /* ========== HOME PAGE | QUOTE SECTION ========== */
+
 .quote {
     font-size: 36px;
     font-family: 'RobotoLightItalic', sans-serif;
@@ -156,21 +153,23 @@ button:hover {
     color: #1F2937;
     text-align: right;
 }
+
 /* =============================================== */
 
 
 /* ===== HOME PAGE | CALL-TO-ACTION SECTION ===== */
+
 .calltoaction {
     background-color: #3882F6;
-    margin: 40px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 3% 20% 3% 20%;
     border-radius: 5px;
     color: #E5E7EB;
 }
+
 
 .calltoaction_button {
     background-color: #3882F6;
@@ -178,17 +177,21 @@ button:hover {
     border-color: #F9FAF8;
     border-radius: 5px;
     border: solid;
-    padding: 1% 5%;
+    padding: 0% 5%;
+    margin: 30px;
+
 }
 
 .calltoaction_header {
     font-size: 24px;
     margin-bottom: -15px;
 }
+
 /* =============================================== */
 
 
 /* ========== CONCEPT PAGE | INFO SECTION ========== */
+
 .concept_details {
     flex-direction: column;
     display: flex;
@@ -217,9 +220,15 @@ button:hover {
         margin: 10px 15%;
     }
 }
+
+.concept_main h2 {
+    margin-bottom: -20px !important;
+}
+
 /* =============================================== */
 
 /* ========== STAY PAGE | INFO SECTION ========== */
+
 .stay_details {
     flex-direction: column;
     display: flex;
@@ -266,54 +275,87 @@ button:hover {
 }
 
 #font_fancy {
-    font-style: italic;
+    font-family: 'RobotoLightItalic';
 }
 
 #left_orientation {
     text-align: left;
 }
+
+.stay_main h2 {
+    margin-bottom: -40px !important;
+}
+
 /* =============================================== */
 
 
-/* ===== CONTACT PAGE | LOCATION SECTION ===== */
+/* ===== CONTACT PAGE | MAIN + LOCATION SECTION ===== */
+
 .location_details {
     justify-content: space-evenly;
     display: flex;
-    margin: 5% 8%;
+    align-items: center;
     background-color: #E5E7EB;
-    padding: 10% 10%;
+    padding: 5% 5%;
     text-align: center;
     color: #1F2937;
 }
 
 .location_image {
-    max-width: 80%;
+    max-width: 50%;
     object-fit: cover;
     aspect-ratio: 1 / 1;
 }
+
 /* =============================================== */
 
 
 /* ===== CONTACT PAGE | FORM SECTION ===== */
-.form {
-    background-color: #E5E7EB;
-    display: flex;
-    justify-content: center;
+
+.form_box {
+    background-color: #3882F6;
+    color: #F9FAF8;
     align-items: center;
-    flex-direction: column;
-    margin: 5% 8%;
-    padding: 5% 5%;
+    margin: 3% 10%;
     text-align: center;
+    border-radius: 5px;
+    padding: 0 5%;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form_box h3 {
+    font-size: 24px;
+    font-family: 'RobotoBlack', sans-serif;
+    color: #F9FAF8;
+}
+
+.input_box {
+    display: grid;
+    padding: 3%;
+}
+
+.message_box {
+    padding: 3%;
+    display: grid;
+
 }
 
 .label {
     font-family: 'RobotoLight';
+    margin-bottom: 5px;
 }
 
-.form input, textarea {
+.form input,
+textarea {
     border: 0px;
     border-radius: 5px;
-    margin-left: 5px;
+    margin-bottom: 20px;
 }
 
 .form input {
@@ -321,7 +363,9 @@ button:hover {
 }
 
 textarea {
-    margin-top: 15px;
+    min-width: 300px;
+    max-width: 300px;
+    min-height: 170px;
 }
 
 #form_button {
@@ -329,23 +373,28 @@ textarea {
     color: #F9FAF8;
     border: 0;
     border-radius: 5px;
-    padding: 1% 3%;
+    padding: 3% 0;
     height: auto;
-
+    border-color: #F9FAF8;
+    border: solid;
+    min-width: 30%;
 }
 
 #form_button:hover {
     background-color: #D49B35;
 }
+
 /* =============================================== */
 
 
 
 /* =========== ALL PAGES FOOTER SECTION =========== */
+
 footer {
     text-align: center;
     padding: 1%;
     background-color: #1F2937;
     color: #E5E7EB;
 }
+
 /* =============================================== */
