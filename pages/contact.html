@@ -11,10 +11,17 @@
 </head>
 
 <body>
+    <section class="skiplink_box">
+        <a href="#main" class="skip_link"><small>Skip to content</small></a>
+    </section>
     <header class="hero_box">
         <section class="logo_flex">
-            <a href="../index.html" rel="noopener noreferrer"><img id="logo" src="../img/sunrise_logo.png"
-                    alt="Sunrise Logo"></a>
+            <section class="logo_box">
+                <a href="./index.html" rel="noopener noreferrer">
+                    <img id="logo" src="../img/logo.png" alt="Sunrise Logo">
+                </a>
+                <h1>Sunrise <span class="logo_seperator"> | </span><span class="logo_text"> Resort & Hotel </span></h1>
+            </section>
             <nav>
                 <a class="nav_link" href="../index.html">Home</a>
                 <a class="nav_link" href="./stay.html">Stay</a>
@@ -26,14 +33,14 @@
             <div>
                 <h1>Stay in touch!</h1>
                 <p class="hero_text">Subscribe to the newsletter to get updated on news and promotions.</p>
-                <button class="hero_button" type="submit"><strong>SUBSCRIBE!</strong></button>
+                <button class="hero_button" type="submit"><strong>Subscribe!</strong></button>
             </div>
             <img class="hero_image scale" src="../img/contact/contact_hero.png"
                 alt="Aerial sandy coastline on a sunny day">
         </section>
     </header>
 
-    <main class="contact_main">
+    <main id="main" class="contact_main">
         <article>
             <header>
                 <h2>Get In Touch</h2>
@@ -70,10 +77,10 @@
 
             <div class="input_box">
                 <label class="label">First Name</label>
-                <input type="text" name="name" value="">
+                <input type="text" name="fname" value="">
 
                 <label class="label">Last Name</label>
-                <input type="text" name="name" value="">
+                <input type="text" name="lname" value="">
 
                 <label class="label">Phone</label>
                 <input type="text" name="Phone" value="">
@@ -92,7 +99,7 @@
 
     <footer>
         <section class="backtotop">
-            <a href="#top" class="top_shortcut">Back to Top</a>
+            <a href="#top" class="top_shortcut"><small>Back to Top</small></a>
         </section>
         <p><small>© Sunrise LLC, 2023.</small></p>
     </footer>

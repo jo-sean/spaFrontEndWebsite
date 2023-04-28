@@ -55,6 +55,32 @@ h2 {
 }
 
 /* ============ ALL PAGES HERO SECTION ============ */
+.skiplink_box {
+    background-color: #1F2937;
+}
+
+.skiplink_box a {
+    color:#1F2937;
+    padding: 1%;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.skiplink_box a:focus {
+    background-color: #D49B35;
+    color: #F9FAF8;
+}
+
+.skiplink_box a:hover {
+    background-color: #D49B35;
+    color: #F9FAF8;
+}
+
+.skip_link {
+    position: absolute;
+    left: 0; 
+}
+
 
 .hero_box {
     background-color: #1F2937;
@@ -64,6 +90,29 @@ h2 {
 
 #logo {
     height: 50px;
+}
+
+.logo_box {
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.logo_box h1 {
+    font-size: 24px;
+    position: sticky;
+    margin-left: 20px;
+    font-family: 'RobotoLight' !important;
+    font-weight: lighter;
+}
+
+.logo_text {
+    font-size: 14px;
+}
+
+.logo_seperator {
+    font-size: 36px;
 }
 
 .logo_flex {
@@ -105,7 +154,8 @@ h2 {
     color: #F9FAF8;
     border: 0;
     border-radius: 5px;
-    padding: 3% 8%;
+    padding: 15px 25px;
+
 }
 
 button:hover {
@@ -227,6 +277,12 @@ button:hover {
 /* =============================================== */
 
 /* ========== STAY PAGE | INFO SECTION ========== */
+
+.stay_main h2 {
+    margin-bottom: -30px !important;
+}
+
+.stay_main {}
 
 .stay_details {
     flex-direction: column;
