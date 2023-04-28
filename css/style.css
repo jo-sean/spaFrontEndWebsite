@@ -368,6 +368,7 @@ button:hover {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
 }
 
 .form_box h3 {
@@ -384,7 +385,6 @@ button:hover {
 .message_box {
     padding: 3%;
     display: grid;
-
 }
 
 .label {
@@ -404,8 +404,8 @@ textarea {
 }
 
 textarea {
-    min-width: 300px;
-    max-width: 300px;
+    min-width: 100%;
+    max-width: 100%;
     min-height: 170px;
 }
 
