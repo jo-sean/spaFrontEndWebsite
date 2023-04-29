@@ -230,6 +230,10 @@ button:hover {
 
 /* ========== STAY PAGE | INFO SECTION ========== */
 
+.stay_main h2 {
+    margin-bottom: -30px !important;
+}
+
 .stay_details {
     flex-direction: column;
     display: flex;
