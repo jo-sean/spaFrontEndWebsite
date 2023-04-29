@@ -4,6 +4,8 @@ An informative hotel website created with only vanilla HTML and CSS showcasing c
 
 Project 2 for the week of April 24-28, 2023, in the Brainnest Frontend Development Industry Training scope.
 
+LINK: https://jo-sean.github.io/main-responsive-website/
+
 ## Contributers
 
 * [Andrew Nabil Nassef](https://github.com/AndrewNabil22)
