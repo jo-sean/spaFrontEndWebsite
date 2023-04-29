@@ -1,5 +1,4 @@
-# Brainnest FD Training | Collaborative HTML&CSS Project
-Website with only vanilla HTML and CSS showcasing consistent theming along 3 webpages and the use of flexbox in CSS to manipulate the look and responsiveness of the page.
+# Brainnest FD Training | Collaborative Vanilla HTML & CSS Project
 
 An informative hotel website created with only vanilla HTML and CSS showcasing consistent theming along three pages of the website and the use of "flexbox" in CSS to manipulate the look and responsiveness of the page.
 
@@ -43,10 +42,8 @@ This checklist was created from https://web.dev/accessible/ and accessibility fe
 * [x] **Semantic HTML for easy keyboard use:** Interactive parts should not be defined with non-interactive elements (div, span, etc.), semantic HTML elements should be used for easy keyboard support (a, button, input, textarea, etc.)
 
 * [x] **Links vs buttons**:  
-If clicking will perform action ON PAGE -> button should be used 
+If clicking will perform action ON PAGE -> button should be used  
 If clicking will NAVIGATE to a new page -> link (\<a>) should be used
-
-* [x] **Sytle "focus ring":**  Add the CSS code for focus ring to match the website style
 
 #### Semantics and Screen Reader Support
 
