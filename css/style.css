@@ -283,8 +283,6 @@ button:hover {
     margin-bottom: -30px !important;
 }
 
-.stay_main {}
-
 .stay_details {
     flex-direction: column;
     display: flex;
