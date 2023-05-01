@@ -361,10 +361,9 @@ button:hover {
 
 .newsletter_text {
     text-align: left;
-    margin-left: 5%;
+    margin-left: 5% 0;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
 }
 
 .location_newsletter h2 {
@@ -375,6 +374,8 @@ button:hover {
 .location_newsletter p {
     text-align: left;
     font-size: 1.5dvw;
+    margin-top: 5%;
+    width: 90%;
 }
 
 .location_image {
@@ -390,7 +391,7 @@ button:hover {
     align-items: center;
     background-color: #E5E7EB;
     color: #1F2937;
-    margin-left: 15%;
+    margin-left: 13%;
     padding: 2% 3%;
 }
 
@@ -400,7 +401,9 @@ button:hover {
     border: 0;
     border-radius: .5vw;
     padding: 4%;
-    max-width: 40%;
+    max-width: 10vw;
+    min-width: 2.5vw;
+    min-height: auto;
     font-size: 1.5dvw;
 }
 
