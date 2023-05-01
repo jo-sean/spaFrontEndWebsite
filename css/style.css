@@ -41,7 +41,7 @@ a {
     text-decoration: none;
 }
 
-h1 {
+.logo_font {
     font-size: 48px;
     font-family: 'RobotoBlack', sans-serif;
     font-weight: bold;
@@ -61,7 +61,7 @@ h2 {
 }
 
 .skiplink_box a {
-    color:#1F2937;
+    color: #1F2937;
     padding: 1%;
     text-decoration: none;
     border-radius: 5px;
@@ -79,9 +79,8 @@ h2 {
 
 .skip_link {
     position: absolute;
-    left: 0; 
+    left: 0;
 }
-
 
 .hero_box {
     background-color: #1F2937;
@@ -100,7 +99,7 @@ h2 {
     text-align: center;
 }
 
-.logo_box h1 {
+.logo_box p {
     font-size: 24px;
     position: sticky;
     margin-left: 20px;
@@ -120,7 +119,8 @@ h2 {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
-    padding-top: 3%;
+    align-items: center;
+    /* padding-top: 3%; */
 }
 
 .nav_link {
@@ -156,7 +156,6 @@ h2 {
     border: 0;
     border-radius: 5px;
     padding: 15px 25px;
-
 }
 
 button:hover {
@@ -220,7 +219,6 @@ button:hover {
     color: #E5E7EB;
 }
 
-
 .calltoaction_button {
     background-color: #3882F6;
     color: #F9FAF8;
@@ -247,7 +245,8 @@ button:hover {
     display: flex;
     margin: 4% 0%;
     background-color: #E5E7EB;
-    padding: 2% 10%;
+    /* padding: 2% 10%; */
+    margin-left: 10%;
     text-align: center;
     color: #1F2937;
 }
@@ -331,20 +330,89 @@ button:hover {
 
 /* ===== CONTACT PAGE | MAIN + LOCATION SECTION ===== */
 
-.location_details {
+#contact_title {
     justify-content: space-evenly;
     display: flex;
     align-items: center;
     background-color: #E5E7EB;
-    padding: 5% 5%;
+    padding: 1%;
     text-align: center;
     color: #1F2937;
+    margin-right: 25%;
+}
+
+.location_details {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 0% 5%;
+    text-align: center;
+    color: #1F2937;
+    margin-right: 20%;
+    margin-bottom: 5%;
+}
+
+.contact_details {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.5dvw;
+}
+
+.newsletter_text {
+    text-align: left;
+    margin-left: 5% 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.location_newsletter h2 {
+    text-align: left;
+    font-size: 3dvw;
+}
+
+.location_newsletter p {
+    text-align: left;
+    font-size: 1.5dvw;
+    margin-top: 5%;
+    width: 90%;
 }
 
 .location_image {
-    max-width: 50%;
+    max-width: 60%;
     object-fit: cover;
     aspect-ratio: 1 / 1;
+}
+
+.location_newsletter {
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    display: flex;
+    align-items: center;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    margin-left: 13%;
+    padding: 2% 3%;
+}
+
+.subscribe_button {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    border: 0;
+    border-radius: .5vw;
+    padding: 4%;
+    max-width: 10vw;
+    min-width: 2.5vw;
+    min-height: auto;
+    font-size: 1.5dvw;
+}
+
+.contact_image {
+    max-width: 80%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: 25px;
+    object-fit: contain;
 }
 
 /* =============================================== */
@@ -353,59 +421,71 @@ button:hover {
 /* ===== CONTACT PAGE | FORM SECTION ===== */
 
 .form_box {
+    display: flex;
     background-color: #3882F6;
     color: #F9FAF8;
     align-items: center;
-    margin: 3% 10%;
+    margin: 5% 13% 5% 13%;
     text-align: center;
-    border-radius: 5px;
     padding: 0 5%;
     align-items: center;
 }
 
 .form {
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
     width: 100%;
+    min-width: 30%;
+
 }
 
 .form_box h3 {
-    font-size: 24px;
+    font-size: 2.5vw;
     font-family: 'RobotoBlack', sans-serif;
     color: #F9FAF8;
 }
 
 .input_box {
-    display: grid;
-    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    min-width: 30%;
+    min-height: auto;
+    max-width: fit-content;
 }
 
 .message_box {
     padding: 3%;
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    min-width: 30%;
+    min-height: auto;
+    max-width: fit-content;
 }
 
 .label {
     font-family: 'RobotoLight';
-    margin-bottom: 5px;
+    margin-bottom: 1.5vw;
+    font-size: 1.8vw;
 }
 
 .form input,
 textarea {
     border: 0px;
     border-radius: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 3.5vw;
 }
 
 .form input {
-    height: 20px;
+    height: 2.5vw;
 }
 
 textarea {
-    min-width: 100%;
-    max-width: 100%;
-    min-height: 170px;
+    min-width: 50%;
+    min-height: auto;
+    resize: none;
 }
 
 #form_button {
@@ -441,7 +521,7 @@ footer {
     position: absolute;
     margin-top: 1%;
     border: #F9FAF8 solid;
-    border-radius: 5px;
+    border-radius: .5vw;
     padding: 0.5% 1%;
 }
 
