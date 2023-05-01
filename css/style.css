@@ -421,59 +421,71 @@ button:hover {
 /* ===== CONTACT PAGE | FORM SECTION ===== */
 
 .form_box {
+    display: flex;
     background-color: #3882F6;
     color: #F9FAF8;
     align-items: center;
-    margin: 3% 10%;
+    margin: 5% 13% 5% 13%;
     text-align: center;
-    border-radius: 5px;
     padding: 0 5%;
     align-items: center;
 }
 
 .form {
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
     width: 100%;
+    min-width: 30%;
+
 }
 
 .form_box h3 {
-    font-size: 24px;
+    font-size: 2.5vw;
     font-family: 'RobotoBlack', sans-serif;
     color: #F9FAF8;
 }
 
 .input_box {
-    display: grid;
-    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    min-width: 30%;
+    min-height: auto;
+    max-width: fit-content;
 }
 
 .message_box {
     padding: 3%;
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    min-width: 30%;
+    min-height: auto;
+    max-width: fit-content;
 }
 
 .label {
     font-family: 'RobotoLight';
-    margin-bottom: 5px;
+    margin-bottom: 1.5vw;
+    font-size: 1.8vw;
 }
 
 .form input,
 textarea {
     border: 0px;
     border-radius: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 3.5vw;
 }
 
 .form input {
-    height: 20px;
+    height: 2.5vw;
 }
 
 textarea {
-    min-width: 100%;
-    max-width: 100%;
-    min-height: 170px;
+    min-width: 50%;
+    min-height: auto;
+    resize: none;
 }
 
 #form_button {
@@ -509,7 +521,7 @@ footer {
     position: absolute;
     margin-top: 1%;
     border: #F9FAF8 solid;
-    border-radius: 5px;
+    border-radius: .5vw;
     padding: 0.5% 1%;
 }
 
