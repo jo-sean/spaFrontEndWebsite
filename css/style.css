@@ -257,6 +257,7 @@ button:hover {
     height: 10%;
     aspect-ratio: 5 / 1;
     object-fit: fill;
+    margin-bottom: 2%;
 }
 
 #width_adjustment {
