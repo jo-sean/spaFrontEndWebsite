@@ -267,9 +267,11 @@ button:hover {
     display: flex;
     margin: 4% 0%;
     background-color: #E5E7EB;
-    margin-left: 10%;
+    margin-left: 20%;
     text-align: center;
     color: #1F2937;
+    font-style: italic;
+    font-size: 2dvw;
 }
 
 .concept_box {
@@ -282,7 +284,7 @@ button:hover {
     margin: 0 5% 5% 5%;
 }
 
-.contact_div {
+.concept_div {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -336,6 +338,26 @@ button:hover {
 
 .concept_main h2 {
     margin-bottom: -20px !important;
+}
+
+.concept_book_details {
+    padding: 2%;
+    width: 40%;
+}
+
+#move_left {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: end;
+}
+
+.concept_button {
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.style_concept_deets p {
+    margin: 1% 15%;
 }
 
 /* =============================================== */
