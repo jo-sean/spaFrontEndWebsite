@@ -94,10 +94,10 @@ h3 {
 }
 
 .hero_h1 {
-    font-size: 24px;
+    font-size: 22px;
     font-family: 'RobotoLight', sans-serif;
     font-weight: unset;
-    margin: 24px 0px 24px 20px;
+    margin: 16px 0px 16px 20px;
 }
 
 .intro_h2 {
@@ -141,6 +141,18 @@ h3 {
     margin-right: 10px;
     color: #F9FAF8;
     text-decoration: none;
+}
+
+.menu_font_adjust a span {
+    font-size: 1.3dvw;
+}
+
+.menu_font_adjust a p {
+    font-size: 2dvw;
+}
+
+.menu_font_adjust nav {
+    font-size: 1.5dvw;
 }
 
 #hero {
