@@ -269,16 +269,17 @@ button:hover {
     margin-inline-start: 5%;
 }
 
-.concept_unit1 {
-    max-width: 75%;
+.concept_unit {
     object-fit: cover;
     aspect-ratio: 1.2 / 1;
 }
 
-.concept_unit2 {
+.c1_width {
+    max-width: 75%;
+}
+
+.c2_width {
     max-width: 95%;
-    object-fit: cover;
-    aspect-ratio: 1.2 / 1;
 }
 
 .concept_photo_details {
