@@ -423,6 +423,10 @@ button:hover {
     font-size: 1.5dvw;
 }
 
+.contact_deet_heading {
+    font-size: 2dvw;
+}
+
 .newsletter_text {
     text-align: left;
     margin-left: 5% 0;
