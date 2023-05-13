@@ -568,9 +568,8 @@ button:hover {
     align-items: center;
     margin: 5% 13% 5% 13%;
     text-align: center;
-    padding: 0 2%;
+    padding: 2% 2%;
     align-items: center;
-    height: 80vh;
 }
 
 .form {
