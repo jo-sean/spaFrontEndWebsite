@@ -169,7 +169,7 @@ h3 {
 
 
 .hero_image {
-    max-width: 45%;
+    max-width: 45vw;
     padding-top: 5%;
     padding-bottom: 5%;
     margin-right: 10%;
@@ -542,7 +542,7 @@ button:hover {
     border: 0;
     border-radius: .5vw;
     padding: 4%;
-    max-width: 10vw;
+    max-width: 15vw;
     min-width: 2.5vw;
     min-height: auto;
     font-size: 1.5dvw;
@@ -568,8 +568,9 @@ button:hover {
     align-items: center;
     margin: 5% 13% 5% 13%;
     text-align: center;
-    padding: 0 5%;
+    padding: 0 2%;
     align-items: center;
+    height: 80vh;
 }
 
 .form {
@@ -577,7 +578,7 @@ button:hover {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
+    width: 90%;
     min-width: 30%;
 
 }
@@ -610,6 +611,7 @@ button:hover {
     font-family: 'RobotoLight';
     margin-bottom: 1.5vw;
     font-size: 1.8vw;
+    font-weight: bolder;
 }
 
 .form input,
