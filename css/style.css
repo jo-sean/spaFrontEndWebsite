@@ -94,10 +94,10 @@ h3 {
 }
 
 .hero_h1 {
-    font-size: 24px;
+    font-size: 22px;
     font-family: 'RobotoLight', sans-serif;
     font-weight: unset;
-    margin: 24px 0px 24px 20px;
+    margin: 16px 0px 16px 20px;
 }
 
 .intro_h2 {
@@ -141,6 +141,18 @@ h3 {
     margin-right: 10px;
     color: #F9FAF8;
     text-decoration: none;
+}
+
+.menu_font_adjust a span {
+    font-size: 1.3dvw;
+}
+
+.menu_font_adjust a p {
+    font-size: 2dvw;
+}
+
+.menu_font_adjust nav {
+    font-size: 1.5dvw;
 }
 
 #hero {
@@ -267,10 +279,23 @@ button:hover {
     display: flex;
     margin: 4% 0%;
     background-color: #E5E7EB;
-    margin-left: 10%;
+    margin-left: 20%;
     text-align: center;
     color: #1F2937;
+    font-style: italic;
+    font-size: 2dvw;
 }
+
+.concept_par_details {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    font-size: .8 dvw;
+    text-align: left;
+    word-wrap: normal;
+    width: 80%;
+}
+
 
 .concept_box {
     justify-content: space-between;
@@ -282,13 +307,17 @@ button:hover {
     margin: 0 5% 5% 5%;
 }
 
-.contact_div {
+.concept_div {
     display: flex;
     justify-content: center;
     flex-direction: column;
     font-size: 1.5dvw;
     width: 50%;
     margin-inline-start: 5%;
+}
+
+.concept_title {
+    font-size: 4dvw;
 }
 
 .concept_unit {
@@ -304,21 +333,11 @@ button:hover {
     max-width: 95%;
 }
 
-.concept_photo_details {
-    display: flex;
-    justify-content: left;
-    flex-direction: column;
-    font-size: .8 dvw;
-    text-align: left;
-    word-wrap: normal;
-    width: 80%;
-}
-
 .concept_image {
     max-width: 100%;
     width: 100%;
-    height: 10%;
-    aspect-ratio: 5 / 1;
+    height: 20%;
+    aspect-ratio: 4 / 1;
     object-fit: fill;
     margin-bottom: 2%;
 }
@@ -336,6 +355,60 @@ button:hover {
 
 .concept_main h2 {
     margin-bottom: -20px !important;
+}
+
+.concept_book_details p {
+    padding: 2% 10%;
+}
+
+#move_left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    right: 0;
+    padding: 0 3%;
+}
+
+#concept_span {
+    font-weight: bold;
+}
+
+.concept_button {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    border: 0;
+    border-radius: .5vw;
+    padding: 3%;
+    font-size: 1.2dvw;
+}
+
+.style_concept_deets h3 {
+    font-size: 2.5dvw;
+}
+
+.style_concept_deets p {
+    margin: 2% 12%;
+    font-size: 1.8dvw;
+    font-style: italic;
+}
+
+.container {
+    position: relative;
+}
+
+.concept_photo_details {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    margin: 4% 0%;
+    padding: 3% 3%;
+    text-align: center;
+    font-size: 2dvw;
+    color: #1F2937;
+    font-style: italic;
+    margin-right: -12.5%;
 }
 
 /* =============================================== */
