@@ -24,7 +24,7 @@ Project 2 for the week of April 24-28, 2023, in the Brainnest Frontend Developme
 
 ## Preview
 
-https://jo-sean.github.io/main-responsive-website/
+https://jo-sean.github.io/spaFrontEndWebsite/
 
 ## Tech Stack/Tools
 
